@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body {
+    background-color: #222;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav {
+    text-align: center;
+    background-color: #123;
+    padding: 20px 200px;
+    color: #fff;
+    font-weight: bold;
+}
+nav h1 {
+    font-size: 35px;
+}
+
+.createnew {
+    text-align: right;
+    width: 600px;
+    margin: 40px auto 0;
+}
+.createnew a {
+    background-color: #009876;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 12px;
+
+}
+
+table {
+    width: 600px;
+    margin: 40px auto 0;
+    background-color: #ffffff38;
+    border-radius: 5px 5px 0 0;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+table thead tr{
+    background-color: #009876;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+}
+table thead th,
+table tbody td {
+    padding: 10px 12px;
+}
+table tbody tr:nth-child(even){
+    background-color: #333;
+}
+table tbody tr:hover {
+    color: #009876;
+    cursor: pointer;
+    background-color: #444;
+}
+table a {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+}
+table svg {
+    width: 20px;
+    height: 20px;
+}
+.updatepage {
+    width: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+.updatepage .title{
+    color: #fff;
+}
+.updatepage form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.updatepage form .input {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #fff;
+}
+.updatepage form input {
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #777;
+}
+.updatepage form .submit {
+    background-color: #009876;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
